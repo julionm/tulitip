@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 
-import Tooltip from '../../../../../src/Tooltip';
+import { Tooltip } from 'tulitip';
 import './styles.css';
 
 export function Sample01 () {

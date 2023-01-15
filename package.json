@@ -7,10 +7,15 @@
     "tooltip",
     "popover"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julionm/tulitip"
+  },
   "scripts": {
     "sample": "cd samples && yarn dev"   
   },
   "version": "1.0.0",
+  "main": "src/Tooltip.jsx",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.26",
