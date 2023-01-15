@@ -15,9 +15,9 @@
     "sample": "cd samples && yarn dev",
     "build": "vite build"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/Tooltip.js",
-  "type": "commonjs",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.26",
