@@ -15,7 +15,7 @@
     "sample": "cd samples && yarn dev",
     "build": "vite build"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/Tooltip.js",
   "type": "commonjs",
   "license": "MIT",
