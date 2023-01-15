@@ -16,8 +16,8 @@
     "build": "vite build"
   },
   "version": "1.0.3",
-  "main": "src/Tooltip.jsx",
-  "type": "module",
+  "main": "dist/Tooltip.js",
+  "type": "commonjs",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.26",
