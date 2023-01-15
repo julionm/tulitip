@@ -12,9 +12,10 @@
     "url": "https://github.com/julionm/tulitip"
   },
   "scripts": {
-    "sample": "cd samples && yarn dev"   
+    "sample": "cd samples && yarn dev",
+    "build": "vite build"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/Tooltip.jsx",
   "type": "module",
   "license": "MIT",
