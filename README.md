@@ -11,7 +11,6 @@ The usage is basically:
 import { useRef, useState } from 'react';
 
 import Tooltip from '../../Tooltip';
-import './styles.css';
 
 export function Sample01 () {
     const [isOpen, setIsOpen] = useState(false);
@@ -48,3 +47,10 @@ export function Sample01 () {
 }
 
 ```
+
+Only depends on React for usage.
+
+## Improvements
+
+- [ ] Add some events for the Tooltip component
+- [ ] Create more options to give more control for the user
