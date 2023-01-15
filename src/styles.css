@@ -1,0 +1,9 @@
+.tulitipContainer {
+    --x: 0;
+    --y: 0;
+    display: block;
+    transform: translate(var(--x), var(--y));
+
+    width: fit-content;
+    height: fit-content;
+}
