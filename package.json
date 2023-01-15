@@ -14,8 +14,9 @@
   "scripts": {
     "sample": "cd samples && yarn dev"   
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/Tooltip.jsx",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.26",
