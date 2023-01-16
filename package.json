@@ -1,6 +1,6 @@
 {
   "name": "tulitip",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "some simple tooltip made for studies purpose, gave my all in this",
   "author": "Julio Negri",
   "private": false,
@@ -24,6 +24,9 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    "dist/style.css": "./dist/style.css"
+  },
   "devDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
