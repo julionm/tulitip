@@ -1,6 +1,6 @@
 {
   "name": "tulitip",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "some simple tooltip made for studies purpose, gave my all in this",
   "author": "Julio Negri",
   "private": false,
@@ -25,6 +25,10 @@
     "dist"
   ],
   "exports": {
+    ".": {
+      "import": "./dist/tulitip.es.js",
+      "require": "./dist/tulitip.umd.js"
+    },
     "dist/style.css": "./dist/style.css"
   },
   "devDependencies": {
