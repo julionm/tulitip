@@ -29,7 +29,7 @@
       "import": "./dist/tulitip.es.js",
       "require": "./dist/tulitip.umd.js"
     },
-    "dist/style.css": "./dist/style.css"
+    "./dist/style.css": "./dist/style.css"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
