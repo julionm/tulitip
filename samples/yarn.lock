@@ -678,10 +678,10 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==
 
-tulitip@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/tulitip/-/tulitip-1.0.8.tgz#fa1d496e8089c7bb4230360ec24bf7253a3e4955"
-  integrity sha512-uE9jNpSi8lhjK5lpH8nqg6QdfahRpM6YsHBsb90RCcHj6UsxsvrloKWVjPkVI1FYFJS+T4kUXASEghHmMKg3MQ==
+tulitip@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/tulitip/-/tulitip-1.0.9.tgz#b3b793f171bf3210d1784ec9b2114abceffd46fe"
+  integrity sha512-ZzW1d1Kh7yithdXVX7HQWZJXRbVQrZs1/OLMXNez1MzYNME3ew5GZKhMzFNVYl1ne1SWi/91jJrS4zlBKyx22A==
 
 update-browserslist-db@^1.0.9:
   version "1.0.10"
