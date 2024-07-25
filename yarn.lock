@@ -10,6 +10,60 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@ast-grep/napi-darwin-arm64@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-darwin-arm64/-/napi-darwin-arm64-0.22.6.tgz#34e9146234de6a7c965ed45335d67863ad96ca95"
+  integrity sha512-L9rEGJ8fNi5LxbZj860wbXxjX7DLNV799zcTaPOSzYadvNyhMY3LWvDXd45Vtx6Dh8QRtCoEMQmw8KaRCEjm9A==
+
+"@ast-grep/napi-darwin-x64@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-darwin-x64/-/napi-darwin-x64-0.22.6.tgz#521470adf988e1f64e5912ec41afad3f958fc9ff"
+  integrity sha512-0iuM6iDJNhcPd6a/JJr64AallR7ttGW/MvUujfQdvJEZY5p9LK35xm23dULznW0tIMgwtMKPRaprgk8LPondKg==
+
+"@ast-grep/napi-linux-arm64-gnu@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-linux-arm64-gnu/-/napi-linux-arm64-gnu-0.22.6.tgz#808008fd5952733e589558d5ac4a5746b84a1d55"
+  integrity sha512-9PAqNJlAQfFm1RW0DVCM/S4gFHdppxUTWacB3qEeJZXgdLnoH0KGQa4z3Xo559SPYDKZy0VnY02mZ3XJ+v6/Vw==
+
+"@ast-grep/napi-linux-x64-gnu@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-linux-x64-gnu/-/napi-linux-x64-gnu-0.22.6.tgz#3f087687560b33ad9a5b232ff4e6780cc8367339"
+  integrity sha512-nZf+gxXVrZqvP1LN6HwzOMA4brF3umBXfMequQzv8S6HeJ4c34P23F0Tw8mHtQpVYP9PQWJUvt3LJQ8Xvd5Hiw==
+
+"@ast-grep/napi-linux-x64-musl@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-linux-x64-musl/-/napi-linux-x64-musl-0.22.6.tgz#dfa09e6e947f266084b30080476e8a1e25aefc73"
+  integrity sha512-gcJeBMgJQf2pZZo0lgH0Vg4ycyujM7Am8VlomXhavC/dPpkddA1tiHSIC4fCNneLU1EqHITy3ALSmM4GLdsjBw==
+
+"@ast-grep/napi-win32-arm64-msvc@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-win32-arm64-msvc/-/napi-win32-arm64-msvc-0.22.6.tgz#ac0f092c0dad39a05b8cb10430cdc99eb87eebfc"
+  integrity sha512-YDDzvPIyl4ti8xZfjvGSGVCX9JJjMQjyWPlXcwRpiLRnHThtHTDL8PyE2yq+gAPuZ28QbrygMkP9EKXIyYFVcQ==
+
+"@ast-grep/napi-win32-ia32-msvc@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-win32-ia32-msvc/-/napi-win32-ia32-msvc-0.22.6.tgz#d4ca06d33a59760aa3870baffa296720ffb01b19"
+  integrity sha512-w5P0MDcBD3bifC2K9nCDEFYacy8HQnXdf6fX6cIE/7xL8XEDs6D1lQjGewrZDcMAXVXUQfupj4P27ZsJRmuIoQ==
+
+"@ast-grep/napi-win32-x64-msvc@0.22.6":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi-win32-x64-msvc/-/napi-win32-x64-msvc-0.22.6.tgz#82c3a7557336c0aa9809ac8ccd5ec573b907b727"
+  integrity sha512-1aaHvgsCBwUP0tDf4HXPMpUV/nUwsOWgRCiBc2zIJjdEjT9TTk795EIX9Z1Nc0OMCrxVEceyiKcYTofXa0Fpxw==
+
+"@ast-grep/napi@^0.22.3":
+  version "0.22.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/napi/-/napi-0.22.6.tgz#473c4398fbafb39277c99b298f08d342f507eabe"
+  integrity sha512-kNF87HiI4omHC7VzyBZSvqOAXtMlSDRF2YX+O5ya0XKv/7/GYms1opLQ+BQ9twLLDj0WsSFX4MYg0TrinZTxTg==
+  optionalDependencies:
+    "@ast-grep/napi-darwin-arm64" "0.22.6"
+    "@ast-grep/napi-darwin-x64" "0.22.6"
+    "@ast-grep/napi-linux-arm64-gnu" "0.22.6"
+    "@ast-grep/napi-linux-x64-gnu" "0.22.6"
+    "@ast-grep/napi-linux-x64-musl" "0.22.6"
+    "@ast-grep/napi-win32-arm64-msvc" "0.22.6"
+    "@ast-grep/napi-win32-ia32-msvc" "0.22.6"
+    "@ast-grep/napi-win32-x64-msvc" "0.22.6"
+
 "@babel/code-frame@^7.18.6":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.18.6.tgz#3b25d38c89600baa2dcc219edfa88a74eb2c427a"
@@ -351,6 +405,11 @@
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz#add4c98d341472a289190b424efbdb096991bb24"
   integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
 
+"@jridgewell/sourcemap-codec@^1.4.15":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz#3188bcb273a414b0d215fd22a58540b989b9409a"
+  integrity sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==
+
 "@jridgewell/trace-mapping@^0.3.9":
   version "0.3.17"
   resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.17.tgz#793041277af9073b0951a7fe0f0d8c4c98c36985"
@@ -538,7 +597,7 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
-"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
+js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
@@ -553,13 +612,6 @@ json5@^2.2.2:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
-loose-envify@^1.1.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
-  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
-  dependencies:
-    js-tokens "^3.0.0 || ^4.0.0"
-
 lru-cache@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-5.1.1.tgz#1da27e6710271947695daf6848e847f01d84b920"
@@ -573,6 +625,13 @@ magic-string@^0.27.0:
   integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
+
+magic-string@^0.30.10:
+  version "0.30.10"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.10.tgz#123d9c41a0cb5640c892b041d4cfb3bd0aa4b39e"
+  integrity sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.4.15"
 
 ms@2.1.2:
   version "2.1.2"
@@ -608,25 +667,10 @@ postcss@^8.4.20:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-react-dom@^18.2.0:
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
-  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
-  dependencies:
-    loose-envify "^1.1.0"
-    scheduler "^0.23.0"
-
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
-
-react@^18.2.0:
-  version "18.2.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
-  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
-  dependencies:
-    loose-envify "^1.1.0"
 
 resolve@^1.22.1:
   version "1.22.1"
@@ -643,13 +687,6 @@ rollup@^3.7.0:
   integrity sha512-JmRYz44NjC1MjVF2VKxc0M1a97vn+cDxeqWmnwyAF4FvpjK8YFdHpaqvQB+3IxCvX05vJxKZkoMDU8TShhmJVA==
   optionalDependencies:
     fsevents "~2.3.2"
-
-scheduler@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
-  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
-  dependencies:
-    loose-envify "^1.1.0"
 
 semver@^6.3.0:
   version "6.3.0"
@@ -684,6 +721,15 @@ update-browserslist-db@^1.0.9:
   integrity sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==
   dependencies:
     escalade "^3.1.1"
+    picocolors "^1.0.0"
+
+vite-plugin-lib-inject-css@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-lib-inject-css/-/vite-plugin-lib-inject-css-2.1.1.tgz#39c5bb30dbb40c70e0d41a334097ce9b77e8e740"
+  integrity sha512-RIMeVnqBK/8I0E9nnQWzws6pdj5ilRMPJSnXYb6nWxNR4EmDPnksnb/ACoR5Fy7QfzULqS4gtQMrjwnNCC9zoA==
+  dependencies:
+    "@ast-grep/napi" "^0.22.3"
+    magic-string "^0.30.10"
     picocolors "^1.0.0"
 
 vite@^4.0.0:

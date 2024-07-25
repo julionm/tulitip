@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import './styles.css';
+import styles from './styles.module.css';
 
 function TooltipPortal({ children, targetParentElement }) {
     return createPortal(
@@ -10,7 +10,7 @@ function TooltipPortal({ children, targetParentElement }) {
         : window.document.body
     );
 }
-x
+
 export const Tooltip = ({
     containerStyle,
     targetElement,
@@ -23,10 +23,18 @@ export const Tooltip = ({
     const tooltipContainerRef = useRef({});
 
     const setTooltipX = (x) => {
+        if (!x) {
+            return;
+        }
+
         tooltipContainerRef.current.style.setProperty('--x', `${x}px`);
     };
 
     const setTooltipY = (y) => {
+        if (!y) {
+            return;
+        }
+
         tooltipContainerRef.current.style.setProperty('--y', `${y}px`);
     };
 
@@ -47,9 +55,10 @@ export const Tooltip = ({
             if (isOpen) {
                 console.error("Unexpected error with ref's while trying to open the tooltip");
             }
+
+            console.log('did nothing.')
             return;
         }
-
         const targetParentRect = targetParentElement.getBoundingClientRect();
         const targetRect = targetElement.getBoundingClientRect();
         const tooltipRect = tooltipContainerRef.current.getBoundingClientRect();
@@ -71,7 +80,7 @@ export const Tooltip = ({
             };
 
             let finalPosition = preferredPositions.find((position) => hasSpace[position]);
-
+            
             if (!finalPosition) {
                 [finalPosition] = preferredPositions;
             }
@@ -175,7 +184,7 @@ export const Tooltip = ({
             <div
                 style={containerStyle}
                 ref={tooltipContainerRef}
-                className="tulitipContainer"
+                className={styles.tulitipContainer}
             >
                 {children}
             </div>
